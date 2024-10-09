@@ -1,0 +1,24 @@
+@use "../abstract/mixins" as mx;
+@use"../abstract/variable" as vr;
+ body{
+   background-color: vr.$heade_footer-couleur;
+ }
+
+
+ .article1-h2{  
+      @include mx.tomat(red,rgb(0, 255, 17),rotate(70deg))  ;
+      
+}
+.article2-h2{ 
+   @include mx.tomat(gray,blue,rotate(33deg));
+
+}
+.article3-h2{ 
+   @include mx.tomat(rgb(6, 7, 5),rgb(149, 25, 132),rotate(13deg));
+
+}
+.article4-h2{
+   @include mx.tomat(rgb(85, 86, 160),rgb(230, 223, 137),rotate(113deg));
+}
+
+

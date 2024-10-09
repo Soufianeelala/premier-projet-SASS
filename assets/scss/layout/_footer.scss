@@ -1,0 +1,5 @@
+@use"../abstract/variable" as vr;
+
+footer{
+    background-color:vr.$titre__lien_nav;
+}

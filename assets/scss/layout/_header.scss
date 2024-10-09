@@ -1,0 +1,14 @@
+@use"../abstract/variable" as vr;
+
+header nav ul{
+    background-color:vr.$titre__lien_nav;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1%;
+    font-size: x-large;
+    
+}
+header nav ul li{
+    padding: 1%;
+}

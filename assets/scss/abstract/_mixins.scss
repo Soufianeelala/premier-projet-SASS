@@ -1,0 +1,13 @@
+@mixin tomat($color,$bg-color,$transform-rotate){
+    color: $color ;
+    background-color:$bg-color ;
+    transform:$transform-rotate;
+    padding: 3%;
+    width: 5px;
+    height: 5px;
+    border: solid 1px;
+    text-align: center;
+  }
+
+
+        
